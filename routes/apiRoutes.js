@@ -1,6 +1,7 @@
 const db = require("../models");
 
-module.exports = function (app) {
+module.exports = (app) => {
+  // Route to get all workouts from database and calc total workout duration
   app.get("/api/workouts", (req, res) => {
     db.Workout.find({})
       .then((dbWorkout) => {
@@ -18,6 +19,7 @@ module.exports = function (app) {
       });
   });
 
+  // Route to find and update one workout in the database with new exercises and the new total workout duration
   app.put("/api/workouts/:id", (req, res) => {
     db.Workout.findOneAndUpdate(
       { _id: req.params.id },
@@ -35,6 +37,7 @@ module.exports = function (app) {
       });
   });
 
+  // Route to create a new workout in the database
   app.post("/api/workouts", ({ body }, res) => {
     db.Workout.create(body)
       .then((dbWorkout) => {
@@ -45,6 +48,7 @@ module.exports = function (app) {
       });
   });
 
+  // Route to get all workouts within a certain range
   app.get("/api/workouts/range", (req, res) => {
     db.Workout.find({})
       .then((dbWorkout) => {
