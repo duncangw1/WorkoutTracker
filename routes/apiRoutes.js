@@ -1,13 +1,13 @@
 const db = require("../models");
 
-module.exports = (app) => {
+module.exports = function (app) {
   app.get("/api/workouts", (req, res) => {
     db.Workout.find({})
       .then((dbWorkout) => {
-        db.Workout.forEach((workout) => {
+        dbWorkout.forEach((workout) => {
           let total = 0;
-          workout.exercises.forEach((e) => {
-            total += e.duration;
+          workout.exercises.forEach((i) => {
+            total += i.duration;
           });
           workout.totalDuration = total;
         });
