@@ -21,13 +21,13 @@ _How to install & get the application running._
 
 - Install dependencies using `npm i`
 - Invoke the application using `node server.js`
-- Select ....
+- Navigate to **localhost:3000** in a web browser to view the app!
 
 ## Usage
 
-_Guidelines for usage & link to Walkthrough Video._
+_Guidelines for usage & application demo._
 
-This application ....
+To use this application, either click on **Continue Workout** or **New Workout**. From there, follow the prompts on screen to input exercise info. Workout history and statistics can be viewed by clicking on the **Dashboard** button in the top left of the app. Please reference the gif below to see a demo of the app in action.
 
 ![Workout Tracker Demo](#)
 
