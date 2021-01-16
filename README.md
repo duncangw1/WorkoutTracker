@@ -29,7 +29,7 @@ _Guidelines for usage & application demo._
 
 To use this application, either click on **Continue Workout** or **New Workout**. From there, follow the prompts on screen to input exercise info. Workout history and statistics can be viewed by clicking on the **Dashboard** button in the top left of the app. Please reference the gif below to see a demo of the app in action.
 
-![Workout Tracker Demo](#)
+![Workout Tracker Demo](public/assets/images/WorkoutTrackerDemo.gif)
 
 ## Licenses
 
