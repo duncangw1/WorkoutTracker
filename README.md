@@ -19,6 +19,8 @@ The purpose of the Workout Tracker application is to allow users to view, create
 
 _How to install & get the application running._
 
+- Clone the Git SSH Key onto the local machine
+- Navigate to the local file in **VS Code** and open the integrated terminal on the `server.js` file
 - Install dependencies using `npm i`
 - Invoke the application using `node server.js`
 - Navigate to **localhost:3000** in a web browser to view the app!
