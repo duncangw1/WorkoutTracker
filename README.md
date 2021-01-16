@@ -4,7 +4,7 @@
 
 ## Description
 
-The purpose of the Workout Tracker application is to .... Please view the deployed application [here](https://workout-tracker-33.herokuapp.com/) or navigate to the [Installation](#installation) section below for instructions on how to run the application locally.
+The purpose of the Workout Tracker application is to allow users to view, create, and track daily workouts. The user is able to track the exercise name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is cardio, the user is also able to track their distance travelled. Please view the deployed application [here](https://workout-tracker-33.herokuapp.com/) or navigate to the [Installation](#installation) section below for instructions on how to run the application locally.
 
 ## Table of Contents
 
